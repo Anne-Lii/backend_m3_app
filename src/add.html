@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" type="module"></script>
+    <title>Lägg till jobb</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startsida</a></li>
+                <li><a href="add.html">Lägg till jobb</a></li>
+                <li><a href="about.html" class="active">Om uppgiften</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="liner"></div>
+        <div id="container_add">
+            <h1>Lägg till jobb</h1>
+            <form id="addForm">
+                <label for="companyname">Företagsnamn: </label><br>
+                <input type="text" id="companyname" name="companyname">
+                <br>
+                <label for="location">Ort: </label><br>
+                <input type="text" id="location" name="location">
+                <br>
+                <label for="jobtitle">Titel: </label><br>
+                <input type="text" id="jobtitle" name="jobtitle">
+                <br>
+                <label for="description">Beskrivning: </label><br>
+                <input type="text" id="description" name="description">
+                <br><br>
+                <label for="startdate">Startdatum: </label>
+                <input type="date" id="startdate" name="startdate">
+                <br><br>
+                <label for="enddate">Slutdatum: </label>
+                <input type="date" id="enddate" name="enddate">
+                <br><br>
+                <button type="submit">Lägg till jobb</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif, Arial Narrow, Arial, Gill Sans MT, Calibri, Trebuchet MS;
+}
+
+header {
+  height: 200px;
+}
+
+nav ul {
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  padding-top: 80px;
+}
+
+nav ul li a {
+  color: #690dbe;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+#liner {
+  background-color: #792cc2;
+  width: 100%;
+  height: 5px;
+}
+
+#container_index {
+  width: 90%;
+  max-width: 900px;
+  min-height: 60vh;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#container_index h1 {
+  padding: 0 0 20px 10px;
+  font-size: 32px;
+}
+
+#container_index a {
+  color: #ff8686;
+  padding-left: 13px;
+  font-size: 24px;
+}
+
+h1 {
+  color: #792cc2;
+}
+
+#jobList {
+  width: 80%;
+  max-width: 1200px;
+  padding: 50px 0 200px;
+}
+
+#jobList li {
+  border-bottom: 2px solid #000;
+  padding: 10px;
+  font-size: 20px;
+  list-style: none;
+}
+
+#jobList h3 {
+  color: #792cc2;
+  font-size: 24px;
+}
+
+#jobList p {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+button {
+  background-color: #e8e2ec;
+  border-radius: 3px;
+  padding: 8px 20px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+#container_add {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#container_add h1 {
+  padding: 30px 0;
+}
+
+#container_add label {
+  font-size: 20px;
+}
+
+#container_add input {
+  width: 90%;
+  height: 30px;
+}
+
+input#startdate, input#enddate {
+  width: 150px;
+}
+
+input#ongoing {
+  width: 50px;
+  height: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#ongoinglabel {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+#container_about {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#container_about h1 {
+  padding: 30px 0;
+  font-size: 32px;
+}
+
+#container_about p {
+  font-size: 20px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.loading {
+  z-index: 9999;
+  background-color: #000000b3;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top-color: #792cc2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: 1s linear infinite spin;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: .8em;
+}
+
+@media (width <= 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  nav ul li {
+    padding: 10px 0;
+  }
+
+  nav ul li a {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=index.34df27b5.css.map */
