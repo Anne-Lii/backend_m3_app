@@ -162,6 +162,9 @@ document.addEventListener("DOMContentLoaded", () => {
             if (response.ok) {
                 // Update the entire list after deleting job
                 await getData();
+
+                //showmessage job deleted and sett div height to 100px
+                showMessage("Jobbet har tagits bort!");
             } else {
                 console.error(`Failed to delete job with ID: ${jobId}`);
             }
@@ -189,12 +192,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // reset form
                 addForm.reset();
-
-                //redirect to index.html
+                
+                //relocate to index.html
                 window.location.href = "index.html";
+                
+                //showmessage jobb added and sett div height to 100px
+                showMessage("Jobbet har blivit tillagt!");
             }
         } catch (error) {
             console.error("Det uppstod ett fel:", error);
+        }
+    }
+
+    //function to show added job and deleted job messages
+    function showMessage(messageText) {
+
+        const messageDiv = document.getElementById("message");
+
+        if(messageDiv) {
+            messageDiv.textContent = messageText;
+            messageDiv.style.height= "100px";//set height to 100 px
+
+            setTimeout(()=> {
+                messageDiv.style.height = "0";
+            }, 3000); //set height to 0 px after 3 sec
         }
     }
 
