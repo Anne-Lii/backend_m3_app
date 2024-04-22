@@ -600,12 +600,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
         try {
             const response = await fetch(url, options); //await response from fetch
             if (!response.ok) throw new Error(`API responded with status: ${response.status}`);
-            const result = await response.json(); //konvert response to javascript      
+            const result = await response.json(); //convert response to javascript      
             //sort enddate on jobs
             result.sort((a, b)=>{
-                if (a.enddate && b.enddate) return new Date(b.enddate) - new Date(a.enddate);
-                else if (a.enddate) return -1;
-                else if (b.enddate) return 1;
+                if (a.endDate && b.endDate) return new Date(b.endDate) - new Date(a.endDate);
+                else if (a.endDate) return -1;
+                else if (b.endDate) return 1;
                 return 0;
             });
             if (jobList) {
@@ -618,16 +618,16 @@ document.addEventListener("DOMContentLoaded", ()=>{
                         <h3>${job.jobtitle}</h3>
                         <p><strong>F\xf6retag:</strong> ${job.companyname}</p>
                         <p><strong>Ort:</strong> ${job.location}</p>
-                        <p><strong>Startdatum:</strong> ${job.startdate ? job.startdate.split("T")[0] : "Ej angivet"}</p>
-                        <p><strong>Slutdatum:</strong> ${job.enddate ? job.enddate.split("T")[0] : "P\xe5g\xe5ende"}</p>
+                        <p><strong>Startdatum:</strong> ${job.startDate ? job.startDate.split("T")[0] : "Ej angivet"}</p>
+                        <p><strong>Slutdatum:</strong> ${job.endDate ? job.endDate.split("T")[0] : "P\xe5g\xe5ende"}</p>
                         <p><strong>Beskrivning:</strong> ${job.description}</p><br>
-                        <button class="removeBtn" data-job-id="${job.id}">Ta bort jobb</button>
+                        <button class="removeBtn" data-_id="${job._id}">Ta bort jobb</button>
                         `;
                     jobList.appendChild(listItem);
                     //event for remove-button to remove specific job
                     const removeBtn = listItem.querySelector(".removeBtn");
                     if (removeBtn) removeBtn.addEventListener("click", function(event) {
-                        const jobId = event.currentTarget.dataset.jobId;
+                        const jobId = event.target.dataset._id;
                         //call function to remove job from database and send with JobId
                         removeJob(jobId);
                     });
@@ -640,7 +640,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
     //event when submiting form
     if (addForm) addForm.addEventListener("submit", function(event) {
         event.preventDefault();
-        console.log("klickat p\xe5 submit");
         const formData = new FormData(addForm);
         //remove validation messages
         const errorElements = addForm.querySelectorAll(".error-message");
@@ -667,41 +666,40 @@ document.addEventListener("DOMContentLoaded", ()=>{
             jobtitle: formData.get("jobtitle"),
             companyname: formData.get("companyname"),
             location: formData.get("location"),
-            startdate: formData.get("startdate"),
-            enddate: formData.get("enddate"),
+            startDate: formData.get("startdate"),
+            endDate: formData.get("enddate"),
             description: formData.get("description")
         };
         addJob(jobData);
     });
     function validateForm(formData) {
         const errors = {};
-        // validate all inputs
+        // validate all inputs and add warning when blank input
         if (!formData.get("companyname")) errors.companyname = "Fyll i f\xf6retagsnamn!";
         if (!formData.get("location")) errors.location = "Fyll i ort!";
         if (!formData.get("jobtitle")) errors.jobtitle = "Fyll i titel!";
         if (!formData.get("description")) errors.description = "Fyll i beskrivning!";
-        if (!formData.get("startdate")) errors.startdate = "Fyll i startdatum!";
+        if (!formData.get("startdate")) errors.startDate = "Fyll i startdatum!";
         return errors;
     }
     //function to remove job
     async function removeJob(jobId) {
-        const url = `https://backend-moment2-1-oqoy.onrender.com/api/work/${jobId}`;
+        const url = `https://backend-m3-api.onrender.com/jobs/${jobId}`;
         const options = {
             method: "DELETE"
         };
         try {
             const response = await fetch(url, options);
-            if (response.ok) {
-                const listItem = document.getElementById(`job-${jobId}`);
-                listItem.remove();
-            }
+            if (response.ok) // Update the entire list after deleting job
+            await getData();
+            else console.error(`Failed to delete job with ID: ${jobId}`);
         } catch (error) {
             console.error("Det uppstod ett fel:", error);
         }
     }
     //function to add job
     async function addJob(jobData) {
-        const url = "https://backend-moment2-1-oqoy.onrender.com/api/work";
+        const url = "https://backend-m3-api.onrender.com/jobs";
         const options = {
             method: "POST",
             headers: {
@@ -713,7 +711,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
             const response = await fetch(url, options);
             if (response.ok) {
                 await response.json();
-                // Återställ formuläret
+                // reset form
                 addForm.reset();
                 //redirect to index.html
                 window.location.href = "index.html";
