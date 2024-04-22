@@ -601,11 +601,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
             const response = await fetch(url, options); //await response from fetch
             if (!response.ok) throw new Error(`API responded with status: ${response.status}`);
             const result = await response.json(); //convert response to javascript      
-            //sort enddate on jobs
+            //sort startDate on jobs
             result.sort((a, b)=>{
-                if (a.endDate && b.endDate) return new Date(b.endDate) - new Date(a.endDate);
-                else if (a.endDate) return -1;
-                else if (b.endDate) return 1;
+                if (a.startDate && b.startDate) return new Date(b.startDate) - new Date(a.startDate);
+                else if (a.startDate) return -1;
+                else if (b.startDate) return 1;
                 return 0;
             });
             if (jobList) {

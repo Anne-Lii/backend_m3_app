@@ -24,7 +24,6 @@
 120C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\postcss-value-parser\lib\walk.js133582419632107068 0
 137C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133582419633677060 0
 87C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\package.json133582420292283341 0
-130C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\css-select\lib\pseudo-selectors\filters.js133582419633067051 0
 92C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\package-lock.json133582419654503118 0
 112C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\weak-lru-cache\README.md133582419632607080 0
 106C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\.package-lock.json133582419655023165 0
@@ -46,7 +45,7 @@
 106C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\picocolors\LICENSE133582419630093607 0
 119C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\regions\SB.js133582419644667087 0
 137C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133582419636837057 0
-79C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist133582571110221129 1
+79C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist133582695426198020 1
 110C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\fs\src\find.js133582419631507052 0
 113C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\svgo\plugins\prefixIds.js133582419636507061 0
 85C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\.gitignore133582431252838397 0
@@ -77,15 +76,6 @@
 112C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\htmlnano\lib\helpers.mjs133582419637137081 0
 120C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\svgo\plugins\removeEmptyAttrs.js133582419636807062 0
 84C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\README.md133582531967951413 0
-118C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\detect-libc\lib\detect-libc.js133582419632197065 0
-111C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\weak-lru-cache\index.js133582419631197065 0
-105C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\is-glob\README.md133582419631457056 0
-111C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\to-regex-range\index.js133582419630567058 0
-97C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\js-tokens133582419631597054 1
-121C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@swc\helpers\esm\_create_class.js133582419638097073 0
-126C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\ordered-binary\.nyc_output\processinfo133582419632867062 1
-78C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\src133582432416418171 1
-132C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\css-exclusions.js133582419638547072 0
 99C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\htmlparser2133582419633257068 1
 139C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\credential-management.js133582419637977079 0
 117C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@swc\helpers\src\_dispose.mjs133582419642187093 0
@@ -108,6 +98,15 @@
 100C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\posthtml\lib133582419631007060 1
 97C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\callsites133582419631597054 1
 97C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@trysound133582419616401184 1
+118C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\detect-libc\lib\detect-libc.js133582419632197065 0
+111C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\weak-lru-cache\index.js133582419631197065 0
+105C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\is-glob\README.md133582419631457056 0
+111C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\to-regex-range\index.js133582419630567058 0
+97C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\js-tokens133582419631597054 1
+121C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@swc\helpers\esm\_create_class.js133582419638097073 0
+126C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\ordered-binary\.nyc_output\processinfo133582419632867062 1
+78C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\src133582432416418171 1
+132C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\css-exclusions.js133582419638547072 0
 108C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\path-type\index.d.ts133582419630597069 0
 99C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\cosmiconfig133582419634297069 1
 135C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\css-width-stretch.js133582419639987068 0
@@ -134,7 +133,7 @@
 110C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\codeframe\test133582419634697057 1
 119C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\regions\GA.js133582419641537077 0
 131C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\transformer-svg\src\dependencies.js133582419631177059 0
-89C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\src\js\main.js133582513321803982 0
+89C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\src\js\main.js133582695421626694 0
 115C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\semver\ranges\intersects.js133582419634097059 0
 122C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\ping.js133582419644287054 0
 122C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133582419633067051 0
@@ -705,7 +704,7 @@
 133C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\contenteditable.js133582419637857059 0
 130C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\utility-types\dist\functional-helpers.d.ts133582419633797064 0
 128C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\utility-types\dist\functional-helpers.js133582419631077055 0
-102C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.34df27b5.css.map133582570677476897 0
+102C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.34df27b5.css.map133582695425838065 0
 175C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts133582419635217055 0
 145C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\csso\node_modules\css-tree\cjs\generator\token-before.cjs133582419637777062 0
 140C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Value.cjs133582419637937061 0
@@ -1699,7 +1698,7 @@
 119C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\regions\FJ.js133582419641137071 0
 116C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\nth-check\lib\index.d.ts.map133582419633467059 0
 122C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\heif.js133582419641977099 0
-88C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\add.html133582570677696884 0
+88C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\add.html133582695426058014 0
 115C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\bundler-default\lib133582419630657060 1
 134C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\electron-to-chromium\full-chromium-versions.js133582419631397063 0
 165C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm64-gnu.node133582419636317057 0
@@ -2020,6 +2019,8 @@
 140C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\lmdb\node_modules\node-addon-api\tools\check-napi.js133582419633347069 0
 129C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\pointerlock.js133582419644357056 0
 136C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\lmdb\node_modules\node-addon-api\tools\README.md133582419634287078 0
+128C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\csso\node_modules\css-tree\cjs\tokenizer133582419637917055 1
+108C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\is-json\package.json133582419630073666 0
 135C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\channel-messaging.js133582419637547060 0
 139C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\requestanimationframe.js133582419644547077 0
 107C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\lmdb\dist\index.cjs133582419637207057 0
@@ -2254,8 +2255,6 @@
 109C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\csso\cjs\compress.cjs133582419633907058 0
 110C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\is-number\package.json133582419630053644 0
 103C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\is-json\LICENSE133582419631327064 0
-128C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\csso\node_modules\css-tree\cjs\tokenizer133582419637917055 1
-108C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\is-json\package.json133582419630073666 0
 137C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@swc\helpers\cjs\_possible_constructor_return.cjs133582419636737064 0
 118C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\htmlparser2\lib\index.d.ts.map133582419632797065 0
 105C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\is-json\README.md133582419630957056 0
@@ -2265,7 +2264,7 @@
 109C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\is-json\test\index.js133582419632287065 0
 131C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\reporter-cli\lib\CLIReporter.js.map133582419634277062 0
 114C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\css-what\lib\es\index.d.ts133582419634187070 0
-101C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.18dbc454.js.map133582570677436888 0
+101C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.18dbc454.js.map133582695426118064 0
 104C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\is-glob\index.js133582419630607087 0
 127C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\svg-fonts.js133582419645047069 0
 135C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\transformer-posthtml\lib\loadPlugins.js133582419630737053 0
@@ -2396,11 +2395,11 @@
 134C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\htmlnano\lib\modules\removeAttributeQuotes.mjs133582419637467063 0
 135C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\sharedarraybuffer.js133582419644817069 0
 127C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\htmlnano\lib\modules\removeComments.cjs133582419634367057 0
+127C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133582419637547060 0
+127C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\htmlnano\lib\modules\removeComments.mjs133582419637487062 0
 116C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\commander\typings\index.d.ts133582419632897063 0
 121C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\core\lib\applyRuntimes.js133582419634147087 0
 102C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\csso\cjs\clean133582419635577057 1
-127C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\htmlnano\lib\modules\removeComments.mjs133582419637487062 0
-127C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133582419637547060 0
 134C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\htmlnano\lib\modules\removeEmptyAttributes.cjs133582419634447076 0
 119C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\regions\NZ.js133582419643977058 0
 117C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@swc\helpers\src\_type_of.mjs133582419642797080 0
@@ -2722,7 +2721,7 @@
 123C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\dom-serializer\lib\esm\package.json133582419632297079 0
 132C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\features\xml-serializer.js133582419646097071 0
 103C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\detect-libc\bin133582419631767068 1
-90C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.html133582570677626908 0
+90C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.html133582695426198020 0
 103C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\detect-libc\lib133582419632117107 1
 96C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\csso\cjs133582419635487061 1
 133C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\css-select\lib\pseudo-selectors\subselects.js133582419634327086 0
@@ -3600,6 +3599,7 @@
 119C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\caniuse-lite\data\regions\DJ.js133582419640427055 0
 121C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@swc\helpers\_\_non_iterable_rest133582419640587052 1
 130C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\css-select\lib\pseudo-selectors\aliases.js133582419631517055 0
+130C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\css-select\lib\pseudo-selectors\filters.js133582419633067051 0
 131C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\@parcel\packager-wasm\src\wasm-sourcemap.js133582419631557057 0
 130C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\css-select\lib\pseudo-selectors\index.d.ts133582419637107054 0
 128C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\css-select\lib\pseudo-selectors\index.js133582419633767081 0
@@ -5865,6 +5865,6 @@
 115C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\.bin\update-browserslist-db133582419648369537 0
 119C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\.bin\update-browserslist-db.cmd133582419648369537 0
 119C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\node_modules\.bin\update-browserslist-db.ps1133582419648369537 0
-97C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.18dbc454.js133582570677406896 0
-98C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.34df27b5.css133582570677446913 0
-90C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\about.html133582571110201149 0
+98C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.34df27b5.css133582695425778031 0
+90C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\about.html133582695426078021 0
+97C:\mittuniversitetet\Backend-baserad webbutveckling\moment3\m3_applikation\dist\index.18dbc454.js133582695426078021 0

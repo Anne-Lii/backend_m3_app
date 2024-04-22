@@ -25,13 +25,13 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             const result = await response.json();//convert response to javascript      
 
-            //sort enddate on jobs
+            //sort startDate on jobs
             result.sort((a,b) => {
-                if (a.endDate && b.endDate) {
-                    return new Date (b.endDate) - new Date (a.endDate);
-                } else if (a.endDate) {
+                if (a.startDate && b.startDate) {
+                    return new Date (b.startDate) - new Date (a.startDate);
+                } else if (a.startDate) {
                     return -1;
-                } else if (b.endDate) {
+                } else if (b.startDate) {
                     return 1;
                 }
                 return 0;
@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // validate input from form
             const errors = validateForm(formData);
+           
             if (Object.keys(errors).length > 0) {
 
                 // show validation message
